@@ -1,0 +1,60 @@
+.container {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  background-color: #064f5c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.upload-button {
+  background-color: #064f5c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-message {
+  margin-top: 10px;
+  color: #66ff66; /* Green color for success */
+}
+
+.delete-button {
+  color: #fff;
+  background-color: red;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #484141;
+}
